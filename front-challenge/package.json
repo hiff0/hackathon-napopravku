@@ -1,0 +1,22 @@
+{
+  "name": "front-challenge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/devtools-ui-kit": "^1.5.1",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.12"
+  }
+}
